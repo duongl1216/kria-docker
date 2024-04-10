@@ -1,7 +1,7 @@
 # Copyright (C) 2022, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: MIT
 
-FROM xilinx/kria-runtime:2022.1
+FROM xilinx/kria-runtime
 
 LABEL Description="Docker developer image for kria" Vendor="AMD-Xilinx" Version="1.0"
 ARG BUILD_DATE
